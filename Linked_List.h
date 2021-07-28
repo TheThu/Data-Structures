@@ -14,4 +14,9 @@ struct Node{
     struct Node *next;
  };
 
+typedef struct{
+	int data;
+	struct Node *next;
+}Node;
+
 #endif /* LINKED_LIST_H_ */
