@@ -14,6 +14,7 @@ struct Node{
     struct Node *next;
  };
 
+// Type def struct
 typedef struct{
 	int data;
 	struct Node *next;
