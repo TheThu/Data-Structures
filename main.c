@@ -13,6 +13,11 @@
 
 int main()
 {
+
+
+
+
+
 	// Define pointer
 	struct Node* A;
 	// Empty List
