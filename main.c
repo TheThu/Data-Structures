@@ -14,26 +14,10 @@
 int main()
 {
 
-
-
-
-
-	// Define pointer
-	struct Node* A;
-	// Empty List
-	A = NULL;
-
 	// allocating space in memory of size Node
-	struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
+	Node* A = malloc(sizeof(A));
 
-	temp->data= 2;
-	temp->next=NULL;
 
-	A=temp;
 
-	// Printing message
-	printf("-----");
-    printf("%d",A->data);
-    printf("-----");
     return 0;
 }
