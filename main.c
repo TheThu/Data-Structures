@@ -19,13 +19,11 @@ int main()
 
 
 
-// Inserting Nodes at positiontemp3
+// Inserting Nodes
 	Insert(2,1);
-	Insert(3,2);
-	int a= getNumberOfNodes(head);
-	printf("Numbers o Nodes %d ",a);
-//	Insert(4,1);
-//	Insert(5,2);
+	Insert(5,2);
+	Insert(4,3);
+
 
 	Print_List();
     return 0;

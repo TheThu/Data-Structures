@@ -9,10 +9,7 @@
 #define LINKED_LIST_H_
 
 
-//struct Node{
-//    int data;
-//    struct Node *next;
-// };
+
 
 // Type def struct
 typedef struct Node{
@@ -21,7 +18,8 @@ typedef struct Node{
 }Node_t;
 
 // Function prototypes
-//void Insert(int x);
+
+
 void Print_List();
 
 int getNumberOfNodes(Node_t* head);

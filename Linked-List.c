@@ -9,6 +9,8 @@
 #include "stdio.h"
 #include "stdlib.h"
 
+#include <stdbool.h>
+
 // Insert Node_t at beginning
 
 //void Insert(int x)
@@ -19,6 +21,8 @@
 //	temp->next = head;
 //	head = temp;
 //}
+
+
 
 
 int getNumberOfNodes(Node_t* head){
@@ -34,9 +38,13 @@ int getNumberOfNodes(Node_t* head){
 
 // Insert at position
 void Insert(int data, int n){
+
+
+
 		Node_t* temp1 = (Node_t*)malloc(sizeof(Node_t));
 		temp1->data = data;
 		temp1->next = NULL;
+
 
 		// List if empty
 		if(n==1)
@@ -45,11 +53,9 @@ void Insert(int data, int n){
 			head = temp1;
 			return;
 		}
-//int a= getNumberOfNodes(head);
-//printf("Numbers o Nodes %d ",a);
-//		if (getNumberOfNodes(head) >n){
-//			printf("Invalid %d",n);
-//		}
+
+
+
 		// Go to n-1 Node_t
 		Node_t* temp2 = head;
 		for (int i = 0;i<n-2;i++){
