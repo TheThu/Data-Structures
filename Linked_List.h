@@ -9,22 +9,26 @@
 #define LINKED_LIST_H_
 
 
-struct Node{
-    int data;
-    struct Node *next;
- };
+//struct Node{
+//    int data;
+//    struct Node *next;
+// };
 
 // Type def struct
-typedef struct{
+typedef struct Node{
 	int data;
 	struct Node *next;
-}Node;
+}Node_t;
 
 // Function prototypes
-void Insert(int x);
+//void Insert(int x);
 void Print_List();
 
+int getNumberOfNodes(Node_t* head);
+
+void Insert(int data, int n);
+
 // Define head as global node
-Node* head;
+Node_t* head;
 
 #endif /* LINKED_LIST_H_ */

@@ -15,17 +15,18 @@ int main()
 {
 
 	head = NULL;
-	int n,i,x;
 
-	printf("How many numbers? \n");
-	scanf("%d",&n);
 
-	for(i=0;i<n;i++){
-		printf("Enter the number \n");
-		scanf("%d",&x);
-		Insert(x);
-		Print_List();
 
-	}
+
+// Inserting Nodes at positiontemp3
+	Insert(2,1);
+	Insert(3,2);
+	int a= getNumberOfNodes(head);
+	printf("Numbers o Nodes %d ",a);
+//	Insert(4,1);
+//	Insert(5,2);
+
+	Print_List();
     return 0;
 }
