@@ -9,17 +9,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-<<<<<<< HEAD
-// Insert Node at beginning
 
-void Insert(int x)
-{
-	// List is empty
-	Node* temp = (Node*)malloc(sizeof(Node));
-	temp->data = x;
-	temp->next = head;
-	head = temp;
-=======
 #include <stdbool.h>
 
 // Insert Node_t at beginning
@@ -78,14 +68,14 @@ void Insert(int data, int n){
 		// Adjust Link field of n-2 Node_t to n-1 Node_t adress
 		temp2->next = temp1;
 
->>>>>>> cb41224... Inserting Node in n position
+
 }
 
 // Print list from head to tail
 void Print_List(){
 
 	// Begin at head
-	Node* temp= head;
+	Node_t* temp= head;
 
 	while(temp!= NULL)
 	{

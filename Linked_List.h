@@ -9,31 +9,22 @@
 #define LINKED_LIST_H_
 
 
-<<<<<<< HEAD
-struct Node{
-    int data;
-    struct Node *next;
- };
-=======
 
->>>>>>> cb41224... Inserting Node in n position
 
 // Type def struct
-typedef struct{
+typedef struct Node{
 	int data;
 	struct Node *next;
-}Node;
+}Node_t;
 
 // Function prototypes
-<<<<<<< HEAD
-void Insert(int x);
-=======
 
 
->>>>>>> cb41224... Inserting Node in n position
+
+void Insert(int data, int n);
 void Print_List();
 
 // Define head as global node
-Node* head;
+Node_t* head;
 
 #endif /* LINKED_LIST_H_ */
