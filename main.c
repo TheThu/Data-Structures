@@ -26,6 +26,17 @@ int main()
 		Insert(x);
 		Print_List();
 
+<<<<<<< HEAD
 	}
+=======
+
+// Inserting Nodes
+	Insert(2,1);
+	Insert(5,2);
+	Insert(4,3);
+
+
+	Print_List();
+>>>>>>> cb41224... Inserting Node in n position
     return 0;
 }

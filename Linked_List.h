@@ -9,10 +9,14 @@
 #define LINKED_LIST_H_
 
 
+<<<<<<< HEAD
 struct Node{
     int data;
     struct Node *next;
  };
+=======
+
+>>>>>>> cb41224... Inserting Node in n position
 
 // Type def struct
 typedef struct{
@@ -21,7 +25,12 @@ typedef struct{
 }Node;
 
 // Function prototypes
+<<<<<<< HEAD
 void Insert(int x);
+=======
+
+
+>>>>>>> cb41224... Inserting Node in n position
 void Print_List();
 
 // Define head as global node
