@@ -8,28 +8,24 @@
 
 #include "Linked_List.h"
 #include "stdio.h"
-
+#include "stdlib.h"
 
 
 int main()
 {
 
-//	// Create empty list
-//	Node* A = NULL;
-//
-//	// Allocating memory block of size Node during run time
-//	Node * temp= (Node*)malloc(sizeof(A));
-//
-//	// Filling List with value
-//	temp->data = 1337;
-//
-//	// Pointer to next to NULL
-//	temp->next = NULL;
-//
-//	// Writing adress in A
-//	A = temp;
-//
-//	// Printing Node data
-//	printf("Value is %d \n", A->data);
+	head = NULL;
+	int n,i,x;
+
+	printf("How many numbers? \n");
+	scanf("%d",&n);
+
+	for(i=0;i<n;i++){
+		printf("Enter the number \n");
+		scanf("%d",&x);
+		Insert(x);
+		Print_List();
+
+	}
     return 0;
 }

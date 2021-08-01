@@ -20,4 +20,11 @@ typedef struct{
 	struct Node *next;
 }Node;
 
+// Function prototypes
+void Insert(int x);
+void Print_List();
+
+// Define head as global node
+Node* head;
+
 #endif /* LINKED_LIST_H_ */
