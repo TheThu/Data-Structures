@@ -2,7 +2,7 @@
  * Linked_List.h
  *
  *  Created on: 14 Jul 2021
- *      Author: T2
+ *      Author: The Thu Tran
  */
 
 #ifndef LINKED_LIST_H_
