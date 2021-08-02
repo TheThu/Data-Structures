@@ -71,6 +71,27 @@ void Insert(int data, int n){
 
 }
 
+void Delete(int n){
+	Node_t* temp1 = head;
+
+	if(n==1)
+	{
+		head = temp1->next;
+		return;
+		free(temp1);
+	}
+	for(int i =0;i<n-2;i++)
+	{
+		// temp1 point to the n-1 Node
+		temp1 = temp1->next;
+	}
+
+	// temp2 points to nth Node
+	Node_t * temp2 = temp1->next;
+	temp1->next = temp2->next;
+	free(temp2);
+}
+
 // Print list from head to tail
 void Print_List(){
 

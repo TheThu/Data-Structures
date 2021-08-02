@@ -23,6 +23,7 @@ typedef struct Node{
 
 void Insert(int data, int n);
 void Print_List();
+void Delete(int n);
 
 // Define head as global node
 Node_t* head;
