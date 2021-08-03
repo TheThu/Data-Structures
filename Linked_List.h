@@ -22,6 +22,7 @@ typedef struct Node{
 
 
 void Insert(int data, int n);
+void Revert_Linked_List();
 void Print_List();
 void Delete(int n);
 

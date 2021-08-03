@@ -23,6 +23,33 @@
 //	head = temp;
 //}
 
+void Revert_Linked_List(){
+	Node_t* current;
+	Node_t* next;
+	Node_t* prev;
+
+	current = head;
+	prev = NULL;
+
+
+
+	while (current!= NULL){
+
+		// Point to next Node
+		next = current->next;
+
+		// Point to previous Node
+		current->next = prev;
+
+		// Point to current Node
+		prev = current;
+
+		// Point to next Node
+		current = next;
+	}
+		head = prev;
+
+}
 
 
 
